@@ -12,8 +12,10 @@ for j in range(e):
    f=int(input("Element in b:"))
    d.append(f)
 print("b=",d)
-
+x=[]
 for i in range (b):
     for j in range (e):
         if a[i]==d[j]:
-            print(a[i])
+            x.append(a[i])
+            
+print(x)
