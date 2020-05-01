@@ -16,3 +16,5 @@ while (length):
             c+=1
     d+=1
     print(b,"cows and",c,"bulls")
+    if b==4:
+        print("you took",d,"guesses for correct number")
