@@ -1,4 +1,4 @@
-a=input()
+a=input("enter the string:")
 n=len(a)
 i=n//2
 k=0
